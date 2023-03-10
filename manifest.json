@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Github user email",
+    "version": "1.0",
+    "description": "Shows you the email ID of a github user",
+    "content_scripts": [
+        {
+          "js": ["scripts/content.js"],
+          "matches": [
+            "https://github.com/*"
+          ]
+        }
+      ]
+  }
